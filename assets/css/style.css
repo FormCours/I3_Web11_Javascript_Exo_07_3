@@ -1,0 +1,47 @@
+body {
+    background-color: bisque;
+    color: black;
+    font-family: 'Comic sans ms';
+}
+
+h1 {
+    color: hotpink;
+    text-shadow: forestgreen 3px 1px 1px;
+}
+
+h2 {
+    color: crimson;
+    text-shadow: navy 2px 1px 1px;
+}
+
+button {
+    padding: 5px 10px;
+    font-weight: bold;
+
+    border: solid goldenrod 2px;
+    border-radius: 20px;
+    color: goldenrod;
+    background-color: yellow;
+}
+
+button:hover {
+    background-color: rgb(235, 235, 17);
+}
+
+button:active {
+    border-color: orangered;
+    color: goldenrod;
+    background-color: orangered;
+}
+
+button:disabled {
+    border-color: gray;
+    color: lightgray;
+    background-color: gray;
+}
+
+label::after {
+    content: ':';
+    margin-left: 0.5ch;
+    margin-right: 0.5ch;
+}
